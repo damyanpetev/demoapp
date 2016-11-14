@@ -11,8 +11,8 @@ import { OrderDetailComponent } from "./order-component/order-component";
 import { NewOrderComponent } from "./neworder-component/neworder-component";
 import { ScanComponent } from "./scan-component/scan-component";
 
-import { IgRippleModule, ButtonModule, TabBarModule, CheckboxModule } from "../node_modules/zero-blocks/main";
-import { IgInput, ListModule, IgLayout, FilterModule, NavbarModule, AvatarModule } from "../node_modules/zero-blocks/main";
+import { IgRippleModule, ButtonModule, TabBarModule, CheckboxModule } from "igniteui-js-blocks/main";
+import { IgInput, ListModule, IgLayout, FilterModule, NavbarModule, AvatarModule } from "igniteui-js-blocks/main";
 
 @NgModule({
   declarations: [
@@ -20,8 +20,7 @@ import { IgInput, ListModule, IgLayout, FilterModule, NavbarModule, AvatarModule
     BoardComponent,
     OrderDetailComponent,
     NewOrderComponent,
-    ScanComponent,
-    IgInput
+    ScanComponent
   ],
   imports: [
     BrowserModule,
@@ -31,6 +30,7 @@ import { IgInput, ListModule, IgLayout, FilterModule, NavbarModule, AvatarModule
     ButtonModule,
     ListModule,
     IgLayout,
+    IgInput,
     FilterModule,
     TabBarModule,
     CheckboxModule,

@@ -24,7 +24,7 @@
       // other libraries
       'rxjs':                      'npm:rxjs',
       'angular-in-memory-web-api': 'npm:angular-in-memory-web-api',
-      'zero-blocks': 'npm:zero-blocks'
+      'igniteui-js-blocks': 'npm:igniteui-js-blocks'
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {
@@ -39,7 +39,7 @@
         main: './index.js',
         defaultExtension: 'js'
       },
-      'zero-blocks': {
+      'igniteui-js-blocks': {
         main: './main.js',
         defaultExtension: 'js'
       }
